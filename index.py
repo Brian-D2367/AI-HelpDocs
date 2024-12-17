@@ -64,7 +64,8 @@ else:
     session = Session.builder.configs(credentials).create()
     st.session_state.session = session
 
-    st.title(" AI HelpDocs")
+    st.title("AI HelpDocs")
+
 
     # Inject custom CSS for styling
     st.markdown(
