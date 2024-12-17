@@ -134,6 +134,9 @@ else:
         div.stButton > button:hover {
             background-color: #1565C0; /* Darker background on hover */
         }
+        footer{
+            visibility: hidden;
+        }
         </style>
         """,
         unsafe_allow_html=True
