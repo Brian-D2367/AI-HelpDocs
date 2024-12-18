@@ -168,7 +168,6 @@ else:
                         <img src="https://img.icons8.com/fluency/48/000000/chatbot.png" class="icon" width="30"/>
                         <div class="message bot-message">
                             {response_text}
-                            <button class="copy-button" onclick="navigator.clipboard.writeText('{response_text}').then(function() {{ alert('Text copied!'); }}).catch(function(err) {{ console.error('Copy failed', err); }});">Copy</button>
                         </div>
                     </div>
                     """, unsafe_allow_html=True)
