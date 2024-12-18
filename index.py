@@ -71,6 +71,9 @@ else:
     st.markdown(
         """
         <style>
+        *{
+            border-radius: 0px !important;
+        }
         body {
             background-color: #121212;
             color: white;
@@ -133,6 +136,9 @@ else:
         }
         div.stButton > button:hover {
             background-color: #1565C0; /* Darker background on hover */
+        }
+        h1#ai-helpdocs {
+            padding-top: 0px;
         }
         footer{
             visibility: hidden;
